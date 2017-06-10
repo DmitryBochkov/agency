@@ -1,0 +1,85 @@
+.button--header {
+  background-color: $btn-main-bg-color;
+  color: $btn-main-text-color;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  transition: 0.25s;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: darken($btn-main-bg-color, 10%);
+
+  }
+}
+
+.header {
+  &__top {
+    background-color: $header-top-color;
+    box-shadow: 0 1px 0 #e2e2e2;
+  }
+  &__bottom {
+    .container {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.contacts {
+  height: 56px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.contact {
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  color: $header-text-color;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  transition: 0.25s;
+
+  &:first-child {
+    border-right: 1px solid #e2e2e2;
+  }
+
+  &--facebook{
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: $blue;
+    border-radius: 3px;
+    transition: 0.25s;
+
+    &:hover {
+      background-color: darken($blue, 10%);
+    }
+  }
+
+  .fa-envelope,
+  .fa-mobile {
+    margin-right: 7px;
+  }
+  .fa-mobile {
+    font-size: 1.5rem;
+  }
+  .fa-envelope {
+    font-size: 1.1875rem;
+  }
+  .fa-facebook {
+    font-size: 1rem;
+    color: $white;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: lighten($header-text-color, 30%);
+  }
+}

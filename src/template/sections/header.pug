@@ -1,0 +1,27 @@
+header.header
+  .header__top
+    .container
+      .contacts
+        a.contact(href='tel:63373128')
+          i.fa.fa-mobile(aria-hidden="true") 
+          span.contacts__text 6337 3128
+          
+        a.contact(href='mailto:info@business.co')
+          i.fa.fa-envelope(aria-hidden="true") 
+          span.contacts__text info@business.co
+          
+        a.contact.contact--facebook(href='#0')
+          i.fa.fa-facebook(aria-hidden="true") 
+
+  .header__bottom
+    .container
+      .logo
+        .logo__icon
+          i.fa.fa-graduation-cap(aria-hidden="true") 
+        .logo__text
+          span.logo__title Business
+          span.logo__tagline Tagline goes here
+      
+      include navbar
+      
+      a.button.button--header(href="#0") Free Consultation

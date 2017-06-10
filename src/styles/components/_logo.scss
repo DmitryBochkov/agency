@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  padding: 36px 0;
+  margin-right: auto;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    color: $red;
+    font-size: 3.5625rem;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    color: $header-text-color;
+    line-height: 1;
+  }
+  &__title {
+    font-size: 2.3125rem;
+    font-weight: 700;
+  }
+  &logo__tagline {
+    font-size: 0.9375rem;
+  }
+}

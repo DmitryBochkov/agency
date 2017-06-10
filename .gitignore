@@ -1,6 +1,4 @@
 .idea/
-build
-dist
 assets
 node_modules
 npm-debug.log
@@ -24,4 +22,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
