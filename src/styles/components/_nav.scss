@@ -6,7 +6,7 @@
   display: inline-block;
   vertical-align: top;
   padding: 7px 20px;
-  color: $header-text-color;
+  color: $text-main-color;
   font-size: 0.9375rem;
   font-weight: 700;
   text-decoration: none;
@@ -22,7 +22,7 @@
     margin-top: -2px;
     width: 5px;
     height: 5px;
-    background-color: $header-text-color;
+    background-color: $text-main-color;
     border-radius: 50%;
   }
   &:last-child {

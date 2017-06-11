@@ -1,0 +1,30 @@
+.section-heading {
+  position: relative;
+  margin-bottom: 65px;
+  text-align: center;
+  text-transform: capitalize;
+
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 47px;
+    height: 5px;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $text-main-color;
+  }
+
+  h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 2.25rem;
+    line-height: 1;
+  }
+  h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}

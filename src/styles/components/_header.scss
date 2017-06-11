@@ -37,7 +37,7 @@
   padding: 0 20px;
   display: flex;
   align-items: center;
-  color: $header-text-color;
+  color: $text-main-color;
   font-size: 0.9375rem;
   text-decoration: none;
   transition: 0.25s;
@@ -80,6 +80,6 @@
   &:hover,
   &:active,
   &:focus {
-    color: lighten($header-text-color, 30%);
+    color: lighten($text-main-color, 30%);
   }
 }

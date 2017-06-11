@@ -49,11 +49,11 @@ gulp.task('sprite', function(cb) {
   const spriteData = gulp.src('src/img/icons/*.png').pipe(spritesmith({
     imgName: 'sprite.png',
     imgPath: '../img/sprite.png',
-    cssName: 'sprite.scss'
+    cssName: '_sprite.scss'
   }));
 
-  spriteData.img.pipe(gulp.dest('dist/img/'));
-  spriteData.css.pipe(gulp.dest('src/styles/global/'));
+  spriteData.img.pipe(gulp.dest('src/img/'));
+  spriteData.css.pipe(gulp.dest('src/styles/'));
   cb();
 });
 
