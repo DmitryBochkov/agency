@@ -1,0 +1,55 @@
+.work {
+  padding-top: 105px;
+  padding-bottom: 127px;
+  background-color: $work-bg-color;
+  color: $white;
+
+  &__list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__item {
+    position: relative;
+    width: 256px;
+    height: 256px;
+    background-color: $light-red;
+    color: inherit;
+    font-weight: 700;
+
+    &--name {
+      padding-top: 130px;
+      text-align: center;
+
+      &:before {
+        position: absolute;
+        content: '';
+        display: block;
+        @include sprite($work-item);
+        top: 74px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  &__name {
+    font-size: 1.625rem;
+  }
+
+  &__descr {
+    font-size: 1rem;
+  }
+  &__pic {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+.section-heading--work {
+  &:after {
+    background-color: $white;
+  }
+}
