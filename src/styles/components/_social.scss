@@ -1,0 +1,33 @@
+.social {
+  color: inherit;
+  background-color: inherit;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 1.8125rem;
+    font-weight: 700;
+  }
+
+  &__links {
+    margin-bottom: 30px;
+  }
+
+  &__link {
+    display: inline-block;
+    width: 49px;
+    height: 49px;
+    margin: 0 10px;
+    border: 2px solid #515151;
+    border-radius: 1px;
+    color: inherit;
+    font-size: 1.4375rem;
+    text-align: center;
+    line-height: 49px;
+    transition: 0.25s;
+
+    &:hover {
+      border-color: $red;
+    }
+  }
+}
