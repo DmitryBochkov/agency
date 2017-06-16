@@ -1,11 +1,16 @@
 .nav {
   margin-right: 15px;
+
+  @media (max-width: 1000px) {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
 }
 .nav__link {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  padding: 7px 20px;
+  padding: 7px 19px;
   color: $text-main-color;
   font-size: 0.9375rem;
   font-weight: 700;
@@ -37,5 +42,14 @@
   &:focus,
    {
     color: $red;
+  }
+
+  @media (max-width: 500px) {
+    display: block;
+    text-align: center;
+
+    &:after {
+      display: none;
+    }
   }
 }

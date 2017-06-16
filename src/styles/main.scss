@@ -3,9 +3,9 @@
 @import "../../node_modules/normalize.scss/normalize";
 
 // base
+@import "mixins";
 @import "fonts";
 @import "vars";
-@import "mixins";
 @import "sprite";
 @import "base";
 

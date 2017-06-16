@@ -6,6 +6,10 @@
     margin-bottom: 30px;
     font-size: 0.875rem;
 
+    @media (max-width: 600px) {
+      padding: 0 10px;
+    }
+
   }
   &__fields {
     width: 67%;

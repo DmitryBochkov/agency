@@ -1,7 +1,12 @@
 .logo {
   display: flex;
-  padding: 36px 0;
+  padding: 37px 0;
   margin-right: auto;
+
+  @media (max-width: 1000px) {
+    margin: auto;
+    padding: 20px 0;
+  }
 
   &__icon {
     display: flex;
@@ -17,6 +22,7 @@
     line-height: 1;
   }
   &__title {
+    margin-bottom: 2px;
     font-size: 2.3125rem;
     font-weight: 700;
   }

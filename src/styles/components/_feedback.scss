@@ -1,12 +1,17 @@
 .feedback {
   padding-top: 95px;
-  padding-bottom: 110px;
+  padding-bottom: 112px;
   background-color: $feedback-bg-color;
   color: $white;
+  
+  @media (max-width: 985px) {
+    padding: 30px 0;
+  }
+
 }
 
 .section-heading--feedback {
-  margin-bottom: 10px;
+  margin-bottom: 13px;
   &:after {
     display: none;
   }
