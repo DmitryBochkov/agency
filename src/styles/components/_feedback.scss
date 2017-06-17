@@ -3,7 +3,7 @@
   padding-bottom: 112px;
   background-color: $feedback-bg-color;
   color: $white;
-  
+
   @media (max-width: 985px) {
     padding: 30px 0;
   }
@@ -30,6 +30,7 @@
 
 .arrow-down {
   position: absolute;
+  padding: 10px 15px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
