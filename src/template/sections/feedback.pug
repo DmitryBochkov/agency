@@ -14,8 +14,8 @@ section.feedback
         .form__text.
           Sit down with our experts to receive a free customized marketing plan for your business + Learn How To Use Google and Facebook to get 5000% ROI or more
         .form__fields
-          input.form__input(type='text', name='name' placeholder='Your Name')
-          input.form__input(type='text', name='phone' placeholder='Contact Number')
-          input.form__input(type='text', name='company' placeholder='Company Name')
+          input.form__input(type='text', name='name' placeholder='Your Name' data-valid='required')
+          input.form__input(type='text', name='phone' placeholder='Contact Number' data-valid='required' data-phone)
+          input.form__input(type='email', name='email' placeholder='Your Email' data-valid='required' data-email)
             
         button.button.button--feedback(type="submit") Submit now
