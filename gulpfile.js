@@ -51,6 +51,7 @@ gulp.task('js', function () {
   return gulp.src([
     'src/js/init.js',
     'src/js/form.js',
+    'src/js/navigation.js',
     'src/js/validation.js',
     'src/js/main.js'
     ])
