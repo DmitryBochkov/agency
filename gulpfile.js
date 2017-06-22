@@ -53,6 +53,8 @@ gulp.task('js', function () {
     'src/js/form.js',
     'src/js/navigation.js',
     'src/js/validation.js',
+    'node_modules/aos/dist/aos.js',
+    'src/js/slideshow.js',
     'src/js/main.js'
     ])
     .pipe(sourcemaps.init())

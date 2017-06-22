@@ -36,3 +36,9 @@
     });
   }
 })();
+
+window.onload = function() {
+    AOS.init({
+      disable: 'mobile'
+    });
+  };
